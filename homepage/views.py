@@ -9,3 +9,4 @@ def index(request):
     certifications = Certifications.objects.all()
     
     return render(request, 'index.html', context={'skills' : skills, 'certifications' : certifications})
+

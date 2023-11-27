@@ -10,5 +10,6 @@ class Certifications(models.Model):
     title = models.CharField(max_length= 100)
     org = models.CharField(max_length= 100)
 
-class contact_db:
+class contact_db(models.Model):
     pass
+    
